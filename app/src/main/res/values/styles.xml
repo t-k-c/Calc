@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FF8F6F</item>
+        <item name="colorPrimaryDark">#FF746E</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>

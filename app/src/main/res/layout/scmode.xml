@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="30dp"
+                android:paddingBottom="20dp"
+                >
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19sp"
+                    android:text=""
+                    android:textAlignment="textEnd"
+                    android:layout_gravity="end"
+                    android:textColor="@android:color/white"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:paddingBottom="10dp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:id="@+id/mem_tv"
+                        android:text=""
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="40sp"
+                        android:textAlignment="textEnd"
+                        android:layout_gravity="end"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:text=""
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textColor="@android:color/white"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView android:clickable="true"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:text="sin"
+                            android:onClick="sin"
+                            android:id="@+id/sin"
+                            
+                            />
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="cos"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:text="cos"
+                            android:id="@+id/cos"
+                            />
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:text="tan"
+                            android:onClick="tan"
+                            android:id="@+id/tan"
+                            />
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:id="@+id/log"
+                            android:text="log"
+                            android:onClick="log"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/exp"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="exp" />
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/onex"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="1/x" />
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="ln"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="ln" />
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/e"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:text="e"
+                            android:onClick="e"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/sinh"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="sinh"
+                            android:onClick="sinh"
+                        />
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/cosh"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="cosh"
+                            android:onClick="cosh"/>
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/tanh"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="tanh"
+                            android:onClick="tanh"/>
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/ex"
+                            android:onClick="ex"
+                            android:background="#F5F5F5"
+                            android:textColor="#FF8F6F"
+                            android:text="ex" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/x3"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="x3"
+                            android:onClick="x3"/>
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/x2"
+                            android:onClick="x2"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="x2" />
+
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/sqrtX"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text=""
+                            android:onClick="squareroot"/>
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/cubertX"
+                            android:background="#F5F5F5"
+                            android:textColor="#B9B9B9"
+                            android:text="cubertX"
+                            android:onClick="cuberoot"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:id="@+id/tenX"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:text="10X" />
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@android:color/white"
+                            android:textColor="#B9B9B9"
+                            android:text="" />
+
+                        <ImageButton
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="btnBack"
+                            android:background="@drawable/scbutton"
+                            android:textColor="#B9B9B9"
+                            android:src="@drawable/ic_back"
+                            android:id="@+id/backspace"/>
+
+                        <TextView android:clickable="true"                             android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:onClick="calc"
+                            android:background="@drawable/gradientbgone"
+                            android:textColor="#fff"
+                            android:text="=" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/up"
+        android:enabled="true"
+        android:icon="@drawable/ic_up"
+        android:title="Up"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/down"
+        android:enabled="true"
+        android:icon="@drawable/ic_down"
+        android:title="Down"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <!--<item
+        android:id="@+id/sc"
+        android:enabled="true"
+        android:icon="@drawable/ic_scientific"
+        android:title="History"
+        android:visible="true" />-->
+    <item
+        android:id="@+id/drawer"
+        android:enabled="true"
+        android:icon="@drawable/ic_menu"
+        android:title="Scientific"
+        android:visible="true"
+        app:showAsAction="always"/>
+</menu>
